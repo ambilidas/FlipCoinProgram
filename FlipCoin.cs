@@ -35,8 +35,6 @@ namespace FlipCoinProgram
                 
                 double percentage_head = (double)(Heads / num_of_flips)*100 ;
                 double percentage_tail = (double)(Tails / num_of_flips)*100 ;
-
-
                 Console.WriteLine("Percentage of Heads: " + percentage_head +"%");
                 Console.WriteLine("Percentage of Tails: " + percentage_tail +"%");
 
